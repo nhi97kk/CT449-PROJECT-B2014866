@@ -1,0 +1,68 @@
+.form {
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.error-feedback {
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 2px #b9b9b9;
+    transition: all .3;
+}
+
+.form-group {
+    position: relative;
+}
+
+.show-password {
+    border: none;
+    color:#ccc;
+    background-color: inherit;
+    transition: all .3s;
+    position: absolute;
+    top: 42px;
+    right: 5px;
+}
+
+.show-password:hover {
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    width:16px;
+    height:16px;
+    accent-color: #7b7373;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: inherit;
+    color: white;
+    border-color: var(--color-secondary) !important;
+}
+
+.special-link {
+    color: #fff;
+}
+
+.special-link:hover {
+    /* color: var(--color-primary) !important; */
+    transition: all .3s;
+    text-shadow: 2px 2px 2px #000;
+    opacity: .8;
+}
+
+.description {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+span.required-field {
+    color: #ff0000;
+}

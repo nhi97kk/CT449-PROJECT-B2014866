@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "content": "Sách là một hòn ngọc quý, nhưng chỉ có những người biết đọc mới có thể khai quật được nó.",
+      "author": "Mark Twain"
+    },
+    {
+      "content": "Sách là nguồn nước tinh khiết cho tâm hồn, và tác giả là người tạo ra dòng chảy không ngừng đó.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "content": "Một cuốn sách là một người bạn không bao giờ phản bội bạn.",
+      "author": "Thomas Carlyle"
+    },
+    {
+      "content": "Mỗi cuốn sách là một hành trình mới, mỗi trang giấy là một bước đi mới.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "content": "Đọc sách là cách tốt nhất để mở rộng tầm nhìn và tăng cường kiến thức.",
+      "author": "Albert Einstein"
+    }
+  ]
+}

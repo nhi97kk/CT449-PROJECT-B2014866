@@ -1,0 +1,106 @@
+{
+  "routeMessage": {
+    "notFound": "Không tìm thấy đường dẫn {{originalUrl}}"
+  },
+  "globalHandlerMessage": {
+    "duplicatedKey": "Trùng lặp giá trị: {{duplicatedField}}. Vui lòng sử dụng giá trị khác!",
+    "duplicatedEmail": "Người dùng với email: {{duplicatedValue}} đã tồn tại! Vui lòng sử dụng email khác!",
+    "invalidField": "Giá trị không hợp lệ {{field}}: {{value}}!"
+  },
+  "jwtMessage": {
+    "expiredError": "Phiên đăng nhập của bạn đã hết hạn! Vui lòng đăng nhập lại để truy cập đường dẫn này!",
+    "jwtError": "Phiên đăng nhập của bạn không hợp lệ! Vui lòng đăng nhập lại!"
+  },
+  "cartMessage": {
+    "requiredUser" :"Một mục giỏ hàng phải thuộc về một người dùng!",
+    "requiredProduct": "Một mục giỏ hàng phải chứa một sản phẩm!",
+    "requiredQuantity": "Một mục giỏ hàng phải có số lượng!",
+    "minQuantity": "Một mục giỏ hàng phải có số lượng ít nhất là 1!",
+    "productNotFound": "Không thể tìm thấy sản phẩm với ID:{{productId}}!",
+    "productOutOfStock": "Sản phẩm với ID:{{productId}} không có đủ hàng ({{stockQuantity}})!",
+    "cartItemNotFound": "Không thể tìm thấy mục giỏ hàng với ID:{{cartItemId}}!",
+    "deleteCartItemSuccess": "Xóa mục giỏ hàng thành công!"
+  },
+  "imageMessage": {
+    "requiredName": "Một hình ảnh phải có tên!",
+    "requiredData": "Một hình ảnh phải có dữ liệu!",
+    "productNotFound": "Không thể tìm thấy sản phẩm với ID:{{productId}}!",
+    "imageNotFound": "Không thể tìm thấy hình ảnh với ID:{{imageId}}!"
+  },
+  "orderItemMessage": {
+    "requiredProduct": "Một mục đơn hàng phải chứa một sản phẩm!",
+    "requiredQuantity": "Một mục đơn hàng phải có số lượng!",
+    "minQuantity": "Một mục đơn hàng phải có số lượng ít nhất là 1!",
+    "requiredPrice": "Một mục đơn hàng phải có giá!",
+    "productNotFound": "Không thể tìm thấy sản phẩm với ID:{{productId}}!",
+    "productOutOfStock": "Sản phẩm với ID:{{productId}} không có đủ hàng ({{stockQuantity}})!",
+    "orderItemNotFound": "Không thể tìm thấy mục đơn hàng với ID:{{orderItemId}}!"
+  },
+  "statusMessage": {
+    "requiredUpdatedBy": "Một trạng thái phải được cập nhật bởi một người dùng!"
+  },
+  "orderMessage": {
+    "requiredUser": "Một đơn hàng phải thuộc về một người dùng!",
+    "requiredStatus": "Một đơn hàng phải có một trạng thái!",
+    "requiredOrderItems": "Một đơn hàng phải có các mục đơn hàng!",
+    "requiredOrderItemsLength": "Một đơn hàng phải có ít nhất 1 mục đơn hàng!",
+    "requiredFullname": "Một đơn hàng phải có họ tên!",
+    "requiredShippingAddress": "Một đơn hàng phải có địa chỉ giao hàng!",
+    "requiredTelephone": "Một đơn hàng phải có số điện thoại!",
+    "reuqiredTotalPrice": "Một đơn hàng phải có tổng giá!",
+    "invalidOrderItems": "Các mục đơn hàng không hợp lệ!",
+    "productNotFound": "Không thể tìm thấy sản phẩm với ID:{{productId}}!",
+    "productOutOfStock": "Sản phẩm với ID:{{productId}} không có đủ hàng ({{stockQuantity}})!",
+    "orderNotFound": "Không thể tìm thấy đơn hàng với ID:{{orderId}}!",
+    "invalidStatus": "Trạng thái không hợp lệ!",
+    "orderCannotBeUpdated": "Không thể cập nhật đơn hàng với ID:{{orderId}} ({{orderStatus}})!",
+    "orderCannotBeCancelled": "Không thể hủy đơn hàng với ID:{{orderId}} ({{orderStatus}})!",
+    "cancelOrderSuccess": "Hủy đơn hàng thành công!"
+  },
+  "productMessage": {
+    "requiredName": "Một sản phẩm phải có tên!",
+    "minlengthName": "Tên sản phẩm phải có ít nhất 5 ký tự!",
+    "maxlengthName": "Tên sản phẩm phải có nhiều nhất 200 ký tự!",
+    "requiredPrice": "Một sản phẩm phải có giá!",
+    "minPrice": "Giá sản phẩm phải lớn hơn 0!",
+    "requiredStockQuantity": "Một sản phẩm phải có số lượng tồn kho!",
+    "minStockQuantity": "Số lượng tồn kho của sản phẩm ít nhất là 0!",
+    "requiredCreatedBy": "Một sản phẩm phải được tạo bởi một người dùng!",
+    "productNotFound": "Không thể tìm thấy sản phẩm với ID:{{productId}}!"
+  },
+  "userMessage": {
+    "requiredEmail": "Một người dùng phải có một địa chỉ email!",
+    "uniqueEmail": "Người dùng với email:{{email}} đã tồn tại!",
+    "invalidEmail": "Email không hợp lệ! Vui lòng sử dụng một địa chỉ email hợp lệ!" ,
+    "requiredPassword": "Mật khẩu không thể trống!",
+    "minlengthPassword": "Mật khẩu phải có ít nhất 8 ký tự!",
+    "requiredConfirmPassword": "Vui lòng xác nhận mật khẩu của bạn!",
+    "invalidConfirmPassword": "Mật khẩu xác nhận không khớp!",
+    "signupSuccess": "Đăng ký thành công! Vui lòng đăng nhập để bắt đầu!",
+    "invalidActiveToken": "Mã token của bạn không hợp lệ! Vui lòng nhập một mã token hợp lệ!",
+    "activeSuccess": "Tài khoản của bạn đã được kích hoạt!",
+    "emptyLoginInfo": "Vui lòng cung cấp email và mật khẩu!",
+    "incorrectLoginInfo": "Email hoặc mật khẩu không chính xác!",
+    "loginSuccess": "Đăng nhập thành công!",
+    "userNotFound": "Người dùng không tồn tại! Vui lòng thử lại!",
+    "passwordChanged": "Mật khẩu của bạn đã được thay đổi! Vui lòng đăng nhập lại!",
+    "notHavePermission": "Bạn không có quyền thực hiện hành động này!",
+    "forgotPasswordSuccess": "Liên kết đặt lại mật khẩu của bạn đã được gửi đến email của bạn! Vui lòng kiểm tra email để hoàn tất!",
+    "invalidResetToken": "Mã token đặt lại của bạn không hợp lệ! Vui lòng nhập một mã token hợp lệ!",
+    "resetPasswordSuccess": "Mật khẩu của bạn đã được đặt lại! Vui lòng đăng nhập lại!",
+    "incorrectOldPassword": "Mật khẩu cũ của bạn không đúng! Vui lòng thử lại!",
+    "updatePasswordSuccess": "Mật khẩu của bạn đã được cập nhật!",
+    "logoutSuccess": "Đăng xuất thành công!",
+    "notForUpdatePassword": "Đường dẫn này không dành cho việc cập nhật mật khẩu. Vui lòng sử dụng /changePassword"
+  },
+  "mailTemplate": {
+    "activeMail": {
+      "subject": "Kích hoạt tài khoản của bạn",
+      "html": "Vui lòng nhấp vào liên kết sau để kích hoạt tài khoản của bạn:\n<a href=\"{{FRONTEND_ACTIVE_URL}}/{{activeToken}}\">Kích hoạt ngay</a> hoặc (nếu bạn chỉ sử dụng API) <a href=\"{{protocol}}://{{host}}/api/v1/users/active/{{activeToken}}\">Patch tại đây</a>"
+    },
+    "resetMail": {
+      "subject": "Đặt lại mật khẩu của bạn",
+      "html": "Vui lòng nhấp vào liên kết sau để đặt lại mật khẩu của bạn:\n<a href=\"{{FRONTEND_RESET_PASSWORD_URL}}/{{resetToken}}\">Đặt lại ngay</a> hoặc (nếu bạn chỉ sử dụng API) <a href=\"{{protocol}}://{{host}}/api/v1/users/resetPassword/${resetToken}>Patch tại đây</a>"
+    }
+  }
+}

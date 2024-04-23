@@ -1,0 +1,27 @@
+
+* {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    --color-primary: #333;
+    --color-primary-opacity: rgba(107, 112, 110, 0.664);
+    /* --color-primary-opacity: rgb(150, 113, 50); */
+    --color-secondary: #666;
+    --color-tertiary: #005786;
+    --color-quaternary: #FFEED9;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a.router-link {
+    color: var(--color-secondary);
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+a.router-link:hover {
+    opacity: 0.8;
+}
+

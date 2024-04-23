@@ -1,0 +1,106 @@
+{
+    "routeMessage": {
+        "notFound": "Cannot find route {{originalUrl}}"
+    },
+    "globalHandlerMessage": {
+        "duplicatedKey": "Duplicate field value: {{duplicatedField}}. Please use another value!",
+        "duplicatedEmail": "An user with email: {{duplicatedValue}} already exists! Please use another email!",
+        "invalidField": "Invalid field {{field}}: {{value}}!"
+    },
+    "jwtMessage": {
+        "expiredError": "Your login has expired! Please login again to access this route!",
+        "jwtError": "Your login is not valid! Please login again!"
+    },
+    "cartMessage": {
+        "requiredUser" :"A cart item must belong to a user!",
+        "requiredProduct": "A cart item must be a product!",
+        "requiredQuantity": "A cart item must have a quantity!",
+        "minQuantity": "A cart item must have a quantity of at least 1!",
+        "productNotFound": "Cannot find product with ID:{{productId}}!",
+        "productOutOfStock": "Product with ID:{{productId}} does not have enough stock ({{stockQuantity}})!",
+        "cartItemNotFound": "Cannot find cart item with ID:{{cartItemId}}!",
+        "deleteCartItemSuccess": "Delete cart item successfully!"
+    },
+    "imageMessage": {
+        "requiredName": "An image must have a name!",
+        "requiredData": "An image must have data!",
+        "productNotFound": "Cannot find product with ID:{{productId}}!",
+        "imageNotFound": "Cannot find image with ID:{{imageId}}!"
+    },
+    "orderItemMessage": {
+        "requiredProduct": "An order item must be a product!",
+        "requiredQuantity": "An order item must have a quantity!",
+        "minQuantity": "An order item must have a quantity of at least 1!",
+        "requiredPrice": "An order item must have a price!",
+        "productNotFound": "Cannot find product with ID:{{productId}}!",
+        "productOutOfStock": "Product with ID:{{productId}} does not have enough stock ({{stockQuantity}})!",
+        "orderItemNotFound": "Cannot find order item with ID:{{orderItemId}}!"
+    },
+    "statusMessage": {
+        "requiredUpdatedBy": "A status must be updated by a user!"
+    },
+    "orderMessage": {
+        "requiredUser": "An order must belong to a user!",
+        "requiredStatus": "An order must have a status!",
+        "requiredOrderItems": "An order must have order items!",
+        "requiredOrderItemsLength": "An order must have at least 1 order item!",
+        "requiredFullname": "An order must have a fullname!",
+        "requiredShippingAddress": "An order must have an address!",
+        "requiredTelephone": "An order must have a telephone number!",
+        "reuqiredTotalPrice": "An order must have a total price!",
+        "invalidOrderItems": "Invalid order items!",
+        "productNotFound": "Cannot find product with ID:{{productId}}!",
+        "productOutOfStock": "Product with ID:{{productId}} does not have enough stock ({{stockQuantity}})!",
+        "orderNotFound": "Cannot find order with ID:{{orderId}}!",
+        "invalidStatus": "Invalid status!",
+        "orderCannotBeUpdated": "Order with ID:{{orderId}} ({{orderStatus}}) cannot be updated!",
+        "orderCannotBeCancelled": "Order with ID:{{orderId}} ({{orderStatus}}) cannot be canceled!",
+        "cancelOrderSuccess": "Cancel order successfully!"
+    },
+    "productMessage": {
+        "requiredName": "An product must have a name!",
+        "minlengthName": "An product name must have at least 5 characters!",
+        "maxlengthName": "An product name must have at most 200 characters!",
+        "requiredPrice": "An product must have a price!",
+        "minPrice": "An product price must be greater than 0!",
+        "requiredStockQuantity": "An product must have a stock quantity!",
+        "minStockQuantity": "An product stock quantity must be at least 0!",
+        "requiredCreatedBy": "An product must be created by a user!",
+        "productNotFound": "Cannot find product with ID:{{productId}}!"
+    },
+    "userMessage": {
+        "requiredEmail": "An user must have an email!",
+        "uniqueEmail": "An user with email:{{email}} already exists!",
+        "invalidEmail": "Invalid email! Please use a valid email!" ,
+        "requiredPassword": "Password cannot be empty!",
+        "minlengthPassword": "Password must have at least 8 characters!",
+        "requiredConfirmPassword": "Please confirm your password!",
+        "invalidConfirmPassword": "Confirm password does not match!",
+        "signupSuccess": "Sign up successfully! Please check your email to active your account!",
+        "invalidActiveToken": "Your token is not valid! Please provide a valid token!",
+        "activeSuccess": "Your account has been activated!",
+        "emptyLoginInfo": "Please provide email and password!",
+        "incorrectLoginInfo": "Incorrect email or password!",
+        "loginSuccess": "Login successfully!",
+        "userNotFound": "User does not exist! Please try again!",
+        "passwordChanged": "Your password has been changed! Please login again!",
+        "notHavePermission": "You do not have permission to perform this action!",
+        "forgotPasswordSuccess": "Your reset token has been sent to your email! Please check your email to complete!",
+        "invalidResetToken": "Your token is not valid! Please provide a valid token!",
+        "resetPasswordSuccess": "Your password has been reset! Please login again!",
+        "incorrectOldPassword": "Your old password is incorrect! Please try again!",
+        "updatePasswordSuccess": "Your password has been updated!",
+        "logoutSuccess": "Logout successfully!",
+        "notForUpdatePassword": "This route is not for password update. Please use /changePassword"
+    },
+    "mailTemplate": {
+        "activeMail": {
+            "subject": "Active your account",
+            "html": "Please click on the following link to activate your account:\n<a href=\"{{FRONTEND_ACTIVE_URL}}/{{activeToken}}\">Active now</a> or (if you only use api) <a href=\"{{protocol}}://{{host}}/api/v1/users/active/{{activeToken}}\">Patch here</a>`"
+        }, 
+        "resetMail": {
+            "subject": "Reset your password",
+            "html": "Please click on the following link to reset your password:\n<a href=\"{{FRONTEND_RESET_PASSWORD_URL}}/{{resetToken}}\">Reset now</a> or (if you only use api) <a href=\"{{protocol}}://{{host}}/api/v1/users/resetPassword/${resetToken}>Patch here</a>"
+        }
+    }
+}

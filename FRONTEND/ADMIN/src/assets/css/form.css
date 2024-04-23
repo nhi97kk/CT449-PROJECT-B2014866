@@ -1,0 +1,38 @@
+.form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.error-feedback {
+    color: red;
+}
+
+.form-group {
+    position: relative;
+}
+
+.show-password {
+    border: none;
+    color:#ccc;
+    background-color: inherit;
+    transition: all .3s;
+    position: absolute;
+    top: 42px;
+    right: 5px;
+}
+
+.show-password:hover {
+    color: #000;
+}
+
+input[type="checkbox"] {
+    width:16px;
+    height:16px;
+    accent-color: #7b7373;
+}
